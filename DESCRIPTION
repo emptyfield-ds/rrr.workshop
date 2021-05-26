@@ -22,6 +22,7 @@ Imports:
     knitr,
     maps,
     patchwork,
+    renv,
     rmarkdown,
     scales,
     scico,
