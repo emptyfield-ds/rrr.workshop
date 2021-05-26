@@ -7,8 +7,8 @@ Authors@R:
            role = c("aut", "cre"),
            email = "malcolmbarrett@gmail.com",
            comment = c(ORCID = "0000-0003-0299-5825"))
-Description: Install learning materials for Reproducible Research in R
-License: MIT + file LICENSE
+Description: Install learning materials for Reproducible Research in R.
+License: CC BY 4.0
 Imports: 
     bookdown,
     broom,
