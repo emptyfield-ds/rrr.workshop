@@ -29,6 +29,7 @@ Imports:
     scales,
     scico,
     sf,
+    smd,
     tarchetypes,
     targets,
     tidyverse
