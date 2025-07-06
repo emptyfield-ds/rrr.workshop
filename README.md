@@ -17,9 +17,12 @@ rrr.workshop also allows you to open a given module in RStudio Cloud.
 You can install the latest version of rrr.workshop with:
 
 ``` r
-# requires the development version of pak
-install.packages("pak", repos = "https://r-lib.github.io/p/pak/dev/")
-pak::pak("emptyfield-ds/rrr.workshop")
+options(repos = c(
+  emptyfieldds = "https://emptyfield-ds.r-universe.dev",
+  CRAN = "https://cran.rstudio.com/"
+))
+
+install.packages("rrr.workshop")
 ```
 
 ## Installing modules
