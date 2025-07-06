@@ -11,6 +11,8 @@ BugReports: https://github.com/emptyfield-ds/rrr.workshop/issues
 Imports: 
     bookdown,
     broom,
+    broom.helpers,
+    cardx,
     cowplot,
     distill,
     emptyfield (>= 0.0.1),
